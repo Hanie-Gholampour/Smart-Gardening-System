@@ -17,7 +17,7 @@ This project monitors temperature and humidity in a garden using IoT and provide
 
 ## Files
 - `SmartGardeningSystem.ino`: Arduino source code for the ESP32.
-- `NodeRED_Dashboard.json`: Node-RED flow file.
+- `flows.json`: Node-RED flow file.
 - `SmartGardeningSystem_Presentation.pptx`: Node-RED flow file.
 
 ## How to Use
