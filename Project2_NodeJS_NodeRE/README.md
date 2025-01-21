@@ -9,3 +9,6 @@ This project monitors temperature and humidity in a garden using IoT. The code f
 ## Files
 - `app.js`: Node.js script for backend processing.
 - `flows.json`: Node-RED flow file.
+
+## Demo
+- `app.js`: Node.js script for backend processing.
