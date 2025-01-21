@@ -1,0 +1,49 @@
+[
+    {
+        "id": "f1e99bf44de107c5",
+        "type": "ui_gauge",
+        "z": "812093f449278041",
+        "name": "Temperature Gauge",
+        "group": "06df0cf67105c8d3",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperature (°C)",
+        "label": "°C",
+        "format": "{{msg.payload.temperature}}",
+        "min": "0",
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 600,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "06df0cf67105c8d3",
+        "type": "ui_group",
+        "name": "Sensor Data",
+        "tab": "0bb02af93cf9c69c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "0bb02af93cf9c69c",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
