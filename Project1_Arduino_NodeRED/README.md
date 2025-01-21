@@ -1,4 +1,4 @@
-# Smart-Gardening-System
+# Smart-Gardening-System (Project 1: Arduino + Node-RED)
 
 ## Overview
 This project monitors temperature and humidity in a garden using IoT and provides remote control for gardening tools like a servo motor and NeoPixel LEDs.
