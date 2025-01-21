@@ -12,3 +12,4 @@ This project monitors temperature and humidity in a garden using IoT. The code f
 
 ## Demo
 - `app.js`: Node.js script for backend processing.
+- [Demo Link] (https://www.canva.com/design/DAGc2vF-Jjs/rS_4HAm3-SUW52hwtaSSdg/watch?utm_content=DAGc2vF-Jjs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6ec73c13e)
