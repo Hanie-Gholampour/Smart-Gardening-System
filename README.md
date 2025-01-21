@@ -1,29 +1,28 @@
 # Smart-Gardening-System
 
 ## Overview
-This project monitors temperature and humidity in a garden using IoT and provides remote control for gardening tools like a servo motor and NeoPixel LEDs.
+The **Smart-Gardening-System** repository contains two separate projects designed to automate and monitor gardening tasks using IoT. Each project uses different technologies to implement similar functionalities, providing flexibility in choosing the technology stack.
 
-## Features
-- Real-time temperature and humidity monitoring.
-- Remote control via a Node-RED dashboard.
-- Data logging and customizable lighting.
+### Projects
+1. **Project 1: Arduino + Node-RED**  
+   A system built using the ESP32 microcontroller and Node-RED for automation and real-time monitoring.
 
-## Components
-- ESP32 microcontroller.
-- DHT22 temperature and humidity sensor.
-- Servo motor for automated tasks.
-- NeoPixel LEDs for lighting customization.
-- LED Switch for ensuring the connection sustainability.
+2. **Project 2: Node.js + Node-RED**  
+   An enhanced version with a Node.js backend for data processing and extended Node-RED dashboards.
 
-## Files
-- `SmartGardeningSystem.ino`: Arduino source code for the ESP32.
-- `flows.json`: Node-RED flow file.
-- `SmartGardeningSystem_Presentation.pptx`: Node-RED flow file.
+---
 
-## How to Use
-1. Import the `NodeRED_Dashboard.json` into Node-RED.
-2. Upload the `SmartGardeningSystem.ino` to the ESP32 using Arduino IDE or Wokwi.
-3. Use the Node-RED dashboard to monitor and control the system.
-
-## Demo
-[Wokwi Simulation Link](https://wokwi.com/projects/417080819617940481)
+## Repository Structure
+```plaintext
+Smart-Gardening-System/
+├── Project1_Arduino_NodeRED/
+│   ├── SmartGardeningSystem.ino
+│   ├── flows.json
+│   ├── SmartGardeningSystem_Presentation.pptx
+│   ├── README.md
+├── Project2_NodeJS_NodeRED/
+│   ├── app.js
+│   ├── flows.json
+│   ├── dashboard_flow.json
+│   ├── README.md
+└── README.md (This file)
