@@ -23,6 +23,5 @@ Smart-Gardening-System/
 ├── Project2_NodeJS_NodeRED/
 │   ├── app.js
 │   ├── flows.json
-│   ├── dashboard_flow.json
 │   ├── README.md
 └── README.md (This file)
